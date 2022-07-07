@@ -84,12 +84,13 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
       related: true
       classes: wide
       show_date: true
+      #date_format: "%Y-%m-%d"
   # _pages
   - scope:
       path: "_pages"
@@ -99,7 +100,7 @@ defaults:
       author_profile: true
       classes: wide
       show_date: true
-      # date: true
+      #date_format: "%Y-%m-%d"
 
 category_archive:
   type: liquid
@@ -107,3 +108,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+lunr:
+  search_within_pages: true
