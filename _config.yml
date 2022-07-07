@@ -19,7 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Musing & Notes on Investing, Macro Economics & Technology
 twitter_username: _midvar
 github_username: midvar
-minimal_mistakes_skin: default
 search: true
 
 # Build settings
@@ -89,6 +88,7 @@ defaults:
       comments: true
       share: true
       related: true
+      classes: wide
   # _pages
   - scope:
       path: "_pages"
@@ -96,6 +96,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      classes: wide
       # date: true
 
 category_archive:
