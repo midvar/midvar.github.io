@@ -13,8 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
 title: Musings by Midvar
-email:
+# email:
 description: >- # this means to ignore newlines until "baseurl:"
   Musing & Notes on Investing, Macro Economics & Technology
 twitter_username: _midvar
@@ -83,7 +84,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: false
       share: true

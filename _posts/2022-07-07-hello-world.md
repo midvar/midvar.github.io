@@ -5,10 +5,10 @@ header:
     id: txZVJ24UVUs
     provider: youtube
 categories:
-  - Layout
-  - Uncategorized
+  - music
+  - bs
 tags:
-  - video
-  - layout
+  - music
+  - bs
 date: 2022-07-07 12:59:52
 ---
