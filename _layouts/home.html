@@ -1,11 +1,12 @@
 ---
 layout: archive
 ---
-<link rel="shortcut icon" type="image/png" 
-      href="{{ "/assets/images/favicon.png"  | absolute_url }}">
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<link rel="shortcut icon" type="image/png" 
+      href="{{ "/assets/images/favicon.png"  | absolute_url }}">
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Musings" }}</h3>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
