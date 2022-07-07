@@ -96,7 +96,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      date: true
+      # date: true
 
 category_archive:
   type: liquid
