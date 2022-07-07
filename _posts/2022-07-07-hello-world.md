@@ -6,10 +6,10 @@ header:
     id: Tw3p324I4hU
     provider: youtube
 categories:
-  - music
-  #- bs
+  - misc
 tags:
   - misc
+  - music
 date: 2022-07-07 12:59:52
 ---
 
@@ -18,4 +18,4 @@ Good Reefer X Good Music X Good People
 {: .notice--success .text-center}
 
 Thats all I know...
-{: .notice--success .text-justify}
+{: .notice--notify .text-center}
