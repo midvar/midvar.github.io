@@ -1,5 +1,6 @@
 ---
 title: "Hello World! Watch out for D'Evils, Sir..."
+excerpt: "SiR - D'Evils"
 header:
   video:
     id: txZVJ24UVUs
@@ -12,3 +13,5 @@ tags:
   - bs
 date: 2022-07-07 12:59:52
 ---
+
+...
