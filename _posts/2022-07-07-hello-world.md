@@ -1,9 +1,9 @@
 ---
-title: "Hello World! Watch out for D'Evils, Sir..."
-excerpt: "SiR - D'Evils"
+title: "That's all we know..."
+excerpt: "BJ The Chicago Kid - Sex X Money X Sneakers"
 header:
   video:
-    id: txZVJ24UVUs
+    id: Tw3p324I4hU
     provider: youtube
 categories:
   - music
