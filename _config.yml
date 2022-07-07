@@ -89,7 +89,7 @@ defaults:
       comments: true
       share: true
       related: true
-      # date: true
+      date: true
   # _pages
   - scope:
       path: "_pages"
