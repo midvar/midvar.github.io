@@ -1,7 +1,6 @@
 ---
 title: "Google Sheets QUERY Return Values in Last Non Empty Row"
 excerpt: "Get Last Value in Column via Query with Google Sheets"
-#excerpt_separator: <!--more-->
 categories:
   - Code Snippets
   - Google Sheets
