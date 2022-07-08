@@ -29,24 +29,6 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
   background-color: $form-background-color;
 }
 
-.notice--info a {
-    color: #fff!important;
-}
-.notice--success a {
-    color: #fff!important;
-}
-.notice--warning a {
-    color: #fff!important;
-}
-.notice--success a {
-    color: #fff!important;
-}
-.notice--danger a {
-    color: #fff!important;
-}
-.notice a {
-    color: #fff!important;
-}
-.notice--primary a {
+.notice--info,.notice--success,.notice--warning,.notice--danger,.notice--primary,.notice a {
     color: #fff!important;
 }
