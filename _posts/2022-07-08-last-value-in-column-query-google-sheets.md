@@ -17,7 +17,6 @@ date: 2022-07-08 09:01:23
 - Do calculations on several columns and get just the results row via `INDEX`.
 
 ```excel
-=QUERY(INDIRECT("Prices!C"&COUNT(Prices!C2:C)+1&":J"),"select D-C,(D/C)-1,H,I,J",0)
 =QUERY(INDIRECT("Prices!A"&COUNT(Prices!C2:C)+1&":J"),"select A,B,D-C,(D/C)-1,G,H,I,J label A 'Date',B 'Close',D-C '$Change',(D/C)-1 '%Change',G 'SMA20',H 'SMA50',I 'SMA120',J 'SMA200'",0)
 ```
 
@@ -26,7 +25,7 @@ date: 2022-07-08 09:01:23
  
  ```excel
 ={ArrayFormula(text({"Date";int(query(query(googlefinance(Variables!$A$2  , "all" , Variables!$C$2 ,IF(Variables!$D$2<>"",Variables!$D$2,Today()), Variables!$B$2  ) ,"Select Col1",1),"offset 1",0))},"MM/DD/YYYY")),query(googlefinance( Variables!$A$2 , "all" , Variables!$C$2 , IF(Variables!$D$2<>"",Variables!$D$2,Today()), Variables!$B$2 ) ,"Select Col4,Col2,Col5,Col3,Col6",1)}
-   ```
+```
 
 ### **Data**
 
