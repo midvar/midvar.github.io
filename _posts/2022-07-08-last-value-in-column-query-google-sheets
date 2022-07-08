@@ -9,6 +9,7 @@ tags:
   - INDIRECT
   - GOOGLEFINANCE
 date: 2022-07-08
+published: true
 ---
 
 ##  **Google Sheets | `QUERY` Return Values in Last Non Empty Row**
