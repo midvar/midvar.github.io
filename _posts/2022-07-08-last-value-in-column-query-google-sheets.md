@@ -42,5 +42,6 @@ date: 2022-07-08 09:01:23
 ### ***Bonus***
 
 Sample worksheet linked below. [Try building a UI with Appsheets!](#url-here)
+{: .notice--success .text-center}
 
 >[https://sheets.new](#https://sheets.new)
