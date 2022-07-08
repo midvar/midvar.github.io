@@ -21,8 +21,9 @@ date: 2022-07-08 09:01:23
 =QUERY(INDIRECT("Prices!A"&COUNT(Prices!C2:C)+1&":J"),"select A,B,D-C,(D/C)-1,G,H,I,J label A 'Date',B 'Close',D-C '$Change',(D/C)-1 '%Change',G 'SMA20',H 'SMA50',I 'SMA120',J 'SMA200'",0)
 ```
 
-### **Example**
 ---
+
+### **Example**
 
 **`Prices` Sheet**
 
@@ -35,3 +36,11 @@ date: 2022-07-08 09:01:23
 | Date       | Close | $Change | %Change      | SMA20 | SMA50   | SMA120 | SMA200   |
 | ---------- | ----- | ------- | ------------ | ----- | ------- | ------ | -------- |
 | 07/01/2022 | 51.37 | 4.46    | 0.0841509434 | 64.68 | 63.6046 | 46.133 | 34.76575 |
+
+---
+
+### ***Bonus***
+
+Sample worksheet linked below. [Try building a UI with Appsheets!](#url-here)
+
+>[https://sheets.new](#https://sheets.new)
