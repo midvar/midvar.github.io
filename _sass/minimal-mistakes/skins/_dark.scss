@@ -29,11 +29,19 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
   background-color: $form-background-color;
 }
 
-.notice--info,.notice--success,.notice--warning,.notice--danger,.notice--primary,.notice a {
-    /* color: #fff!important;*/
-    color: mix($primary-color, #fff, 40%)!important;
+.notice--info a,
+.notice--success a,
+.notice--warning a,
+.notice--danger a,
+.notice--primary a,
+.notice a {
+    color: mix($primary-color, #fff, 70%)!important;
 }
-.notice--info,.notice--success,.notice--warning,.notice--danger,.notice--primary,.notice a:hover {
-    /* color: #fff!important;*/
-    color: mix($primary-color, #fff, 60%)!important;
+.notice--info a:hover,
+.notice--success a:hover,
+.notice--warning a:hover,
+.notice--danger a:hover,
+.notice--primary a:hover,
+.notice a:hover {
+    color: mix($primary-color, #fff, 40%)!important;
 }
