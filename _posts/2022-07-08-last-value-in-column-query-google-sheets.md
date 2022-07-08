@@ -28,12 +28,14 @@ date: 2022-07-08 09:01:23
 ={ArrayFormula(text({"Date";int(query(query(googlefinance(Variables!$A$2  , "all" , Variables!$C$2 ,IF(Variables!$D$2<>"",Variables!$D$2,Today()), Variables!$B$2  ) ,"Select Col1",1),"offset 1",0))},"MM/DD/YYYY")),query(googlefinance( Variables!$A$2 , "all" , Variables!$C$2 , IF(Variables!$D$2<>"",Variables!$D$2,Today()), Variables!$B$2 ) ,"Select Col4,Col2,Col5,Col3,Col6",1)}
    ```
 
-### **Data**  
+### **Data**
+
 | Date       | Low   | Open | Close | High  | Volume   | SMA20  | SMA50    | SMA120  | SMA200    |
 | ---------- | ----- | ---- | ----- | ----- | -------- | ----- | ------- | ------ | -------- |
 | 07/01/2022 | 51.37 | 53   | 57.46 | 57.74 | 13950384 | 64.68 | 63.6046 | 46.133 | 34.76575 |
 
-### **Output**  
+### **Output**
+
 | Date       | Close | $Change | %Change      | SMA20 | SMA50   | SMA120 | SMA200   |
 | ---------- | ----- | ------- | ------------ | ----- | ------- | ------ | -------- |
 | 07/01/2022 | 51.37 | 4.46    | 0.0841509434 | 64.68 | 63.6046 | 46.133 | 34.76575 |
