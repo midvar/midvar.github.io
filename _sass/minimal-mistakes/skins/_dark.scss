@@ -30,5 +30,10 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 }
 
 .notice--info,.notice--success,.notice--warning,.notice--danger,.notice--primary,.notice a {
-    color: #fff!important;
+    /* color: #fff!important;*/
+    color: mix($primary-color, #fff, 40%)!important;
+}
+.notice--info,.notice--success,.notice--warning,.notice--danger,.notice--primary,.notice a:hover {
+    /* color: #fff!important;*/
+    color: mix($primary-color, #fff, 60%)!important;
 }
