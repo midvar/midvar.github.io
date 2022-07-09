@@ -50,6 +50,7 @@ date: 2022-07-08 09:01:23
 
 {% capture notice-text %}
 [https://sheets.new](https://sheets.new)
+
 [Try building a UI with Appsheets!](#url-here){: .btn .btn--primary .btn--large .btn--info .text-center}
 {% endcapture %}
 
@@ -57,5 +58,5 @@ date: 2022-07-08 09:01:23
   <h4 class="no_toc .text-center">Sample worksheet</h4>
 
   {{ notice-text | markdownify }}
-  
+
 </div>
