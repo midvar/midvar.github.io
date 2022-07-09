@@ -33,7 +33,6 @@ paginate_path: /page:num/
 timezone: America/Chicago
 date_format: "%B %-d, %Y %H:%M %P"
 human_date: "%Y-%m-%d_%T%:z"
-#date_format: "%Y-%m-%d %H:%M"
 
 include:
   - _pages
