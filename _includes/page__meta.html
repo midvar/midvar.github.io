@@ -1,6 +1,8 @@
 {% assign document = post | default: page %}
 {% if document.read_time or document.show_date %}
+
 <div class="notice--warning">title="{{ date | date: site.human_date }}"</div>
+
   <p class="page__meta" title="{{ date | date: site.human_date }}">
     {% if document.show_date and document.date %}
       {% assign date = document.date %}
