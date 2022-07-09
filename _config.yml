@@ -32,7 +32,7 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/Chicago
 date_format: "%B %-d, %Y %H:%M %P"
-human_date: "%Y-%m-%d %T%:z"
+human_date: "%Y-%m-%d`T%T%:z"
 
 include:
   - _pages
