@@ -21,20 +21,27 @@ date: 2022-07-08 09:01:23
 
 ### **Example**
 
-|Sheet Name|Cells|
-|------|------|
-|Prices|A1:2|
+**Input**
+
+> Sheetname `Prices`
 
 |     |A|B|C|D|E|F|G|H|I|J|
 | --- | ---------- | ----- | ---- | ----- | ----- | -------- | ----- | ------- | ------ | -------- |
 |  1  | Date       | Low   | Open | Close | High  | Volume   | SMA20 | SMA50   | SMA120 | SMA200   |
 |  2  | 07/01/2022 | 51.37 | 53   | 57.46 | 57.74 | 13950384 | 64.68 | 63.6046 | 46.133 | 34.76575 |
 
+**Formula**
+
+~~~ excel
+=QUERY(INDIRECT("Prices!A"&COUNT(Prices!C2:C)+1&":J"),"select A,B,D-C,(D/C)-1,G,H,I,J label A 'Date',B 'Close',D-C '$Change',(D/C)-1 '%Change',G 'SMA20',H 'SMA50',I 'SMA120',J 'SMA200'",0)
+~~~
+
 **Output**
 
+<div class=".notice--info">
 |Sheet Name|Cells|
 |------|------|
-|Variables|A1:2|
+|Variables|A1:2|</div>
 
 |     |A|B|C|D|E|F|G|H|
 | --- | ---------- | ----- | ------- | ------------ | ----- | ------- | ------ | -------- |
@@ -44,8 +51,10 @@ date: 2022-07-08 09:01:23
 ---
 
 ### ***Bonus***
+<div class=".notice--primary">
+Sample worksheet linked below.
 
-Sample worksheet linked below.  
-[Try building a UI with Appsheets!](#url-here){: .btn .btn--primary .btn--large .btn--info .notice--info .text-center}
+[Try building a UI with Appsheets!](#url-here){: .btn .btn--primary .btn--large .btn--info .text-center}
+</div>
 
 >[https://sheets.new](https://sheets.new)
