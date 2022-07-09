@@ -54,10 +54,9 @@ date: 2022-07-08 09:01:23
 [Try building a UI with Appsheets!](#url-here){: .btn .btn--large .btn--info}
 {% endcapture %}
 
-<div class="notice--info .text-center">
+<div class="notice--info text-center">
   <h4 class="no_toc">Sample worksheet</h4>
-  <div class=".text-center">
-  {{ notice-text | markdownify }}
-  </div>
 
+  {{ notice-text | markdownify }}
+  
 </div>
