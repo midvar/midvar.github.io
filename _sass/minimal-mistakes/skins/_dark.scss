@@ -19,7 +19,7 @@ $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
 .toc .nav__title {
-  color: mix($background-color, #F49390, 15%)
+  color: mix($background-color, #F49390, 15%);
 }
 
 .author__urls.social-icons i,
