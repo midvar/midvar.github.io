@@ -8,7 +8,7 @@ tags:
   - QUERY
   - INDIRECT
   - GOOGLEFINANCE
-date: 2022-07-09 14:20
+date: 2022-07-09 10:20
 toc: true
 toc_label: "Contents"
 toc_icon: "list-alt"
