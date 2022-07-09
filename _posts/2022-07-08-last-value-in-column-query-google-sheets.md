@@ -29,7 +29,7 @@ date: 2022-07-09 04:20
 
 **Formula**
 
-~~~ excel
+~~~
 =QUERY(INDIRECT("Prices!A"&COUNT(Prices!C2:C)+1&":J"),"select A,B,D-C,(D/C)-1,G,H,I,J label A 'Date',B 'Close',D-C '$Change',(D/C)-1 '%Change',G 'SMA20',H 'SMA50',I 'SMA120',J 'SMA200'",0)
 ~~~
 
