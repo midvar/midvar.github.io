@@ -48,9 +48,12 @@ date: 2022-07-08 09:01:23
 
 ### ***Bonus***
 
-<div class=".notice--primary">
-Sample worksheet
+{% capture notice-text %}
 [https://sheets.new](https://sheets.new)
-</div>
-
 [Try building a UI with Appsheets!](#url-here){: .btn .btn--primary .btn--large .btn--info .text-center}
+{% endcapture %}
+
+<div class="notice--info">
+  <h4 class="no_toc .text-center">Sample worksheet</h4>
+  {{ notice-text | markdownify }}
+</div>
