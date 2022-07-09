@@ -22,7 +22,7 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
   position: initial;
   top: initial;
   right: initial;
-  width: fit-content;
+  width: fit-content !important;
   margin-right: initial;
   padding-left: initial;
   z-index: initial;
