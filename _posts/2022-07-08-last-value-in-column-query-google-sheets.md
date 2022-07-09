@@ -51,12 +51,12 @@ date: 2022-07-08 09:01:23
 {% capture notice-text %}
 [https://sheets.new](https://sheets.new)
 
-[Try building a UI with Appsheets!](#url-here){: .btn .btn--large .btn--info}
+[Try my guide to building a UI for a Stock Price History with Appsheets!](#url-here){: .btn .btn--large .btn--info}
 {% endcapture %}
 
 <div class="notice--info text-center">
   <h4 class="no_toc">Sample worksheet</h4>
 
   {{ notice-text | markdownify }}
-  
+
 </div>
