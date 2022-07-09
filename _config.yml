@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: _midvar
 github_username: midvar
 search: true
-logo: "assets/images/android-chrome-192x192.png"
+logo: "assets/images/logo.jpg"
 masthead_title: "My Custom Masthead Title"
 
 # Build settings
