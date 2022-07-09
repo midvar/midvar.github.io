@@ -1,7 +1,7 @@
 {% assign document = post | default: page %}
 {% if document.read_time or document.show_date %}
 {% assign date_format = site.human_date | default: "%B %-d, %Y %I:%M %P" %}
-  <p class="page__meta" title="{{ date | human_date }}">
+  <p class="page__meta" title="Published {{ date | human_date }}">
     {% if document.show_date and document.date %}
       {% assign date = document.date %}
       <span class="page__meta-date">
