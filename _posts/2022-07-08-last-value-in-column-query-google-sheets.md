@@ -11,8 +11,6 @@ tags:
 date: 2022-07-08 09:01:23
 ---
 
-##  **Google Sheets | `QUERY` Return Values in Last Non Empty Row**
-
 - Get last value in a columns row by using `COUNT` (or `COUNTA`) to get row number, then plugging that into `INDIRECT`.  
 - Do calculations on several columns and get just the results row via `INDEX`.
 
