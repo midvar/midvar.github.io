@@ -17,7 +17,7 @@
 title: Musings by Midvar
 # email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Musing & Notes on Investing, Macro Economics & Technology
+  Musings & Notes on Investing, Macro Economics & Technology
 twitter_username: _midvar
 github_username: midvar
 search: true
@@ -31,6 +31,7 @@ permalink: pretty
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/Chicago
+date_format: "%Y-%m-%d %H:%M"
 
 include:
   - _pages
@@ -91,7 +92,6 @@ defaults:
       related: false
       classes: wide
       show_date: true
-      date_format: "%Y-%m-%d %H:%M"
   # _pages
   - scope:
       path: "_pages"
