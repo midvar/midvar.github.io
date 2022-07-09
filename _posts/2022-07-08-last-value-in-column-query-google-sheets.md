@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2022-07-09 11:31:24
 title: "Google Sheets QUERY Return Values in Last Non Empty Row"
 excerpt: "Get Last Value in Column via Query with Google Sheets"
 categories:
@@ -8,11 +9,10 @@ tags:
   - QUERY
   - INDIRECT
   - GOOGLEFINANCE
-date: 2022-07-09 10:20
+date: 2022-07-08 10:20
 toc: true
 toc_label: "Contents"
 toc_icon: "list-alt"
----
 ---
 
 - Get last value in a columns row by using `COUNT` (or `COUNTA`) to get row number, then plugging that into `INDIRECT`.  
