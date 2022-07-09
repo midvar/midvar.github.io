@@ -50,7 +50,7 @@ date: 2022-07-08 09:01:23
 
 <div class=".notice--primary">
 Sample worksheet
->[https://sheets.new](https://sheets.new)
+[https://sheets.new](https://sheets.new)
 </div>
 
 [Try building a UI with Appsheets!](#url-here){: .btn .btn--primary .btn--large .btn--info .text-center}
