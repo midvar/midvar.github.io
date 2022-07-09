@@ -45,3 +45,7 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 .notice a:hover {
     color: mix($primary-color, #fff, 40%)!important;
 }
+
+th, td:nth-child(1) {
+  background-color: #579ab7;
+}
