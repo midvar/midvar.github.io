@@ -9,8 +9,8 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-<div class="notice--primary text-center" title="{{ document.date | document.date: site.human_date }}">1 {{ document.date | date: "%B %-d, %Y %H%M %P" }} - 2 {{ document.date | date: "%B %-d, %Y %H%M %P" }} - 3 {{ document.date }}</div>
-<div class="{{ include.type | default: 'list' }}__item" title="{{ document.date | date: site.human_date }}">
+<div class="notice--primary text-center" title="{{ post.date | post.date: site.human_date }}">1 {{ post.date | date: "%B %-d, %Y %H%M %P" }} - 2 {{ post.date | date: "%B %-d, %Y %H%M %P" }} - 3 {{ post.date }}</div>
+<div class="{{ include.type | default: 'list' }}__item" title="{{ post.date | date: site.human_date }}">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
