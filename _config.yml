@@ -31,7 +31,8 @@ permalink: pretty
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/Chicago
-date_format: "%Y-%m-%d %H:%M"
+date_format: "%Y-%m-%d %T%:z"
+#date_format: "%Y-%m-%d %H:%M"
 
 include:
   - _pages
