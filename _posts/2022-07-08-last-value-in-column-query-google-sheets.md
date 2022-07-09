@@ -21,10 +21,8 @@ date: 2022-07-08 09:01:23
 
 ### **Example**
 
-<div style=".notice--notify">
 |Sheet Name|`Prices`|
-|---|---|
-</div>
+|-:-|-:-|
 
 | Date       | Low   | Open | Close | High  | Volume   | SMA20  | SMA50    | SMA120  | SMA200    |
 | ---------- | ----- | ---- | ----- | ----- | -------- | ----- | ------- | ------ | -------- |
@@ -40,6 +38,7 @@ date: 2022-07-08 09:01:23
 
 ### ***Bonus***
 
-Sample worksheet linked below.  [Try building a UI with Appsheets!](#url-here){: .btn .btn--primary .btn--large .btn--info .notice--info .text-center}
+Sample worksheet linked below.  
+[Try building a UI with Appsheets!](#url-here){: .btn .btn--primary .btn--large .btn--info .notice--info .text-center}
 
 >[https://sheets.new](https://sheets.new)
