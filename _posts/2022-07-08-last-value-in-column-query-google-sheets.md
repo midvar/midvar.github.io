@@ -8,7 +8,11 @@ tags:
   - QUERY
   - INDIRECT
   - GOOGLEFINANCE
-date: 2022-07-09 04:20
+date: 2022-07-09 14:20
+toc: true
+toc_label: "Contents"
+toc_icon: "list-alt"
+---
 ---
 
 - Get last value in a columns row by using `COUNT` (or `COUNTA`) to get row number, then plugging that into `INDIRECT`.  
