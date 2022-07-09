@@ -101,8 +101,6 @@ defaults:
       author_profile: true
       classes: wide
       show_date: true
-      #date_format: "%c"
-      #date_format: "%Y-%m-%d"
 
 category_archive:
   type: liquid
