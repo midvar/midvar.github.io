@@ -49,13 +49,13 @@ date: 2022-07-08 09:01:23
 ### ***Bonus***
 
 {% capture notice-text %}
-[https://sheets.new](https://sheets.new)
+[https://docs.google.com/spreadsheets/d/1VjLE5rUbDxR17kJVcskBnCeOeFmra4xk_s3TErnBuf4/edit?usp=sharing](https://sheets.new)
 
 [Try my guide to building a UI for a Stock Price History with Appsheets!](#url-here){: .btn .btn--large .btn--info}
 {% endcapture %}
 
 <div class="notice--info text-center">
-  <h4 class="no_toc">Sample worksheet</h4>
+  <h4 class="no_toc">Sample Worksheet. `QUERY` formula is on Data sheet in cell `A1`</h4>
 
   {{ notice-text | markdownify }}
 
