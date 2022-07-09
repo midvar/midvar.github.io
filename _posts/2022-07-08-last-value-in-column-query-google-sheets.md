@@ -38,10 +38,7 @@ date: 2022-07-08 09:01:23
 
 **Output**
 
-<div class=".notice--info">
-|Sheet Name|Cells|
-|------|------|
-|Variables|A1:2|</div>
+> Sheetname `Variables`
 
 |     |A|B|C|D|E|F|G|H|
 | --- | ---------- | ----- | ------- | ------------ | ----- | ------- | ------ | -------- |
