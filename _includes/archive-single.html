@@ -9,7 +9,7 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
-<div class="notice--warning" title="{{ post.date | date: site.human_date }}">1 {{ post.date | date: site.human_date }} 2 {{ site.date | date: site.human_date }}</div>
+
 <div class="{{ include.type | default: 'list' }}__item" title="Published : {{ post.date | date: site.human_date }}">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
