@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Musings
+title: Musings by Midvar
 subtitle: " by Midvar"
 # email:
 description: >- # this means to ignore newlines until "baseurl:"
@@ -23,7 +23,7 @@ twitter_username: _midvar
 github_username: midvar
 search: true
 logo: "assets/images/logo.jpg"
-masthead_title: "My Custom Masthead Title"
+masthead_title: "Musings..."
 
 # Build settings
 markdown: kramdown
