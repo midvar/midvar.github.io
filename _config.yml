@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "midvar"
   avatar : "/assets/images/midvar.jpg"
-  bio    : "Smashing the 'ol face into the keyboard 'til shit works :) {{page.date}} // {{site.date}}"
+  bio    : "Smashing the 'ol face into the keyboard 'til shit works :)"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"

@@ -8,7 +8,7 @@ tags:
   - QUERY
   - INDIRECT
   - GOOGLEFINANCE
-date: 2022-07-09 09:01:23-5:00
+date: 2022-07-09 09:01:23
 ---
 
 - Get last value in a columns row by using `COUNT` (or `COUNTA`) to get row number, then plugging that into `INDIRECT`.  
