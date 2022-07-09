@@ -56,7 +56,8 @@ date: 2022-07-08 09:01:23
 
 <div class="notice--info .text-center">
   <h4 class="no_toc">Sample worksheet</h4>
-
+  <div class=".text-center">
   {{ notice-text | markdownify }}
+  </div>
 
 </div>
