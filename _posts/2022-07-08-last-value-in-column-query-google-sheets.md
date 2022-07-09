@@ -11,7 +11,7 @@ tags:
   - GOOGLEFINANCE
 date: 2022-07-08 10:20
 toc: true
-toc_label: "Contents"
+toc_label: "Navigation"
 toc_icon: "list-alt"
 ---
 

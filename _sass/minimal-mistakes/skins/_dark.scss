@@ -18,6 +18,16 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
+.wide .sidebar__right {
+  position: initial;
+  top: initial;
+  right: initial;
+  width: fit-content;
+  margin-right: initial;
+  padding-left: initial;
+  z-index: initial;
+}
+
 .toc .nav__title {
   background-color: mix(#0f0f10, #F49390, 60%) !important;
 }
