@@ -49,7 +49,7 @@ date: 2022-07-08 09:01:23
 ### ***Bonus***
 
 {% capture notice-text %}
-[https://docs.google.com/spreadsheets/d/1VjLE5rUbDxR17kJVcskBnCeOeFmra4xk_s3TErnBuf4/edit?usp=sharing](https://sheets.new)
+[Stock_Price_History Sheet with QUERY](https://docs.google.com/spreadsheets/d/1VjLE5rUbDxR17kJVcskBnCeOeFmra4xk_s3TErnBuf4/edit?usp=sharing)
 
 [Try my guide to building a UI for a Stock Price History with Appsheets!](#url-here){: .btn .btn--large .btn--info}
 {% endcapture %}
